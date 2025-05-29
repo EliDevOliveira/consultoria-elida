@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f0fa;
+  color: #3a2a5a;
+  line-height: 1.6;
+  padding: 1rem;
+  text-align: center;
+}
+
+.hero {
+  padding: 2rem 1rem;
+  background: #A084CA; /* lilás */
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.vitrine {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+}
+
+.loja {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+}
+
+.loja h2 {
+  margin-bottom: 0.5rem;
+  color: #5D3A9B; /* roxo */
+}
+
+.loja p {
+  margin-bottom: 1rem;
+  color: #4b3a75;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #5D3A9B; /* roxo */
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #4a2f7a; /* roxo mais escuro */
+}
+
+footer {
+  font-size: 0.9rem;
+  color: #5D3A9B;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #5D3A9B;
+  text-decoration: none;
+  margin: 0 0.3rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer svg {
+  vertical-align: middle;
+  fill: #5D3A9B;
+  transition: fill 0.3s;
+  width: 24px;
+  height: 24px;
+}
+
+footer a:hover svg {
+  fill: #A084CA; /* lilás no hover */
+}
